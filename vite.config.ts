@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-  base: '/to-do-list-app/',
+  base: '/to-do-list-apps/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
